@@ -19,6 +19,7 @@ const Tile = (props) => {
         style={ { backgroundImage: "url(" + props.sound.image + ")" } }
         onClick={ playSound(props.elem, props.sound) }>
         <span className="sound-text-container">
+            <span className="sound-icon"></span>
             <span className="sound-text">{ props.sound.title }</span>
         </span>
     </button>
