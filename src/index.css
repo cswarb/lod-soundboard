@@ -19,10 +19,6 @@ h1 {
 
 .sounds {
   display: grid;
-   grid-template-columns:2fr; /*auto*/
-  grid-template-rows:1fr;
-
-
   grid-template-columns: repeat(3, minmax(0, 1fr));;
   grid-template-rows: repeat(3, minmax(0, 1fr));; 
   align-items: center;
@@ -33,7 +29,6 @@ h1 {
 }
 
 .sound {
-  /* max-width: 100px; */
   max-height: 100px;
   min-height: 250px;
   min-width: 150px;
@@ -56,13 +51,6 @@ h1 {
 }
 
 .sound:hover {
-  /* cursor: pointer; */
-  transform: scale(115%);
-  transform-origin: 50%;
-}
-
-.sound:cli {
-  cursor: pointer;
   transform: scale(115%);
   transform-origin: 50%;
 }
