@@ -71,6 +71,7 @@ const Tile = (props) => {
         onClick={ playSound(props.elem, props.sound) }>
         <span className="sound-text-container">
             <span className="sound-icon"></span>
+            <span className="sound-number">{props.i + 1}</span>
             <span className="sound-text">{ props.sound.title }</span>
         </span>
     </button>
