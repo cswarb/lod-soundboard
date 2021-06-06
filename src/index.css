@@ -11,6 +11,7 @@ body {
 
 .container {
   margin: 64px 175px;
+  padding-bottom: 50px;
 }
 
 h1 {
@@ -103,4 +104,9 @@ footer {
     grid-template-columns: repeat(1, minmax(0, 1fr));
     grid-template-rows: repeat(1, minmax(0, 1fr)); 
   }
+}
+
+.lazy {
+   background-image: none;
+   background-color: #F1F1FA;
 }
