@@ -14,13 +14,15 @@ class AudioContainer extends React.Component {
 
     render() {
         return <div className="sounds">
-            <audio ref={ this.myRef } id="audio" src="./sounds/1.mp3"></audio>
-
             {
                 SOUNDS.map((sound, i) => {
                     return <Tile key={ i } sound={ sound } i={ i } elem={ this.getAudioElem() } />;
                 })
             }
+
+            <footer>
+                <audio controls ref={this.myRef} id="audio" src="./sounds/1.mp3"></audio>
+            </footer>
         </div>
     }
 }

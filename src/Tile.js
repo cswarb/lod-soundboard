@@ -2,12 +2,14 @@ const playSound = (elem, sound) => {
     return () => {
         console.log(elem.current, sound);
         const audioElem = elem.current;
-        try {
-            audioElem.src = sound.source;
+        console.log(audioElem);
+
+        audioElem.src = sound.source;
+        audioElem.volume = 0.5;
+
+        audioElem.addEventListener('canplaythrough', () => {
             audioElem.play();
-        } catch (err) {
-            console.log(err);
-        };
+        });
     }
 };
 
