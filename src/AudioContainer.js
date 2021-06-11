@@ -20,9 +20,9 @@ class AudioContainer extends React.Component {
                 })
             }
 
-            <footer>
-                <audio controls ref={this.myRef} id="audio" src="./sounds/1.mp3"></audio>
-            </footer>
+            {/* <footer> */}
+                <audio ref={this.myRef} id="audio" src="./sounds/1.mp3"></audio>
+            {/* </footer> */}
         </div>
     }
 }

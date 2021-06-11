@@ -3,7 +3,7 @@ const playSound = (elem, sound) => {
         const audioElem = elem.current;
 
         audioElem.src = sound.source;
-        audioElem.volume = 0.5;
+        audioElem.volume = 0.75;
 
         audioElem.addEventListener('canplaythrough', () => {
             audioElem.play();

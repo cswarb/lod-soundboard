@@ -53,6 +53,9 @@ const SOUNDS = [
     { source: './sounds/LoosingItFella.mp3', image: './img/LoosingItFella.png', title: 'Are you loosing it out there fella' },
     { source: './sounds/WorksForMeMate.mp3', image: './img/WorksForMeMate.png', title: 'Works for me mate' },
     { source: './sounds/ManInTheHosptial.mp3', image: './img/ManInTheHosptial.png', title: 'I have a man in the Hosptial' },
+    { source: './sounds/AndTheWeeDonkey.mp3', image: './img/AndTheWeeDonkey.png', title: 'Jesus, Mary and Joseph and the wee Donkey' },
+    { source: './sounds/CheekyWeeShite.mp3', image: './img/CheekyWeeShite.png', title: 'Cheeky wee shite' },
+    { source: './sounds/NobodyBlackerThanMeSon.mp3', image: './img/NobodyBlackerThanMeSon.png', title: 'Nobody\'s blacker than me son' },
 ];
 
 export default SOUNDS;
